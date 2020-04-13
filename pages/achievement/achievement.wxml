@@ -1,0 +1,24 @@
+<!--pages/achievement/achievement.wxml-->
+<view class="page">
+    <view style="background-color: white;" bindtap="kindToggle">
+        <view class="gone-font">{{gone_spots.name}}</view>
+        <view class="kind-list-item-bd {{open ? 'kind-list-item-bd-show' : ''}}">
+            <block wx:for="{{gone_list}}" wx:key="*this">
+                <view class="gone-name">{{item.province}}</view>
+            </block>
+        </view>
+    </view>
+
+    <block wx:for="{{list}}" wx:key="id" class="all_items">
+        <view class="item_card">
+            <text class="font">{{item.name}}</text>
+            <view wx:if="{{item.achieved}}">
+                <image src="../../images/icon/accomplish.png" class="icon"></image>
+            </view>
+            <view wx:else>
+                <image src="../../images/icon/noaccomplish.png" class="icon"></image>
+            </view>
+        </view>
+    </block>
+
+</view>

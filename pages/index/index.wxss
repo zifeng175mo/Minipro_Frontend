@@ -1,0 +1,501 @@
+/**index.wxss**/
+.tip-text0 {
+  width: 400rpx;
+  display: inline-block;
+  margin-top: 80rpx;
+  margin-left: 240rpx;
+}
+.tip-text1 {
+  width: 400rpx;
+  display: inline-block;
+  margin-top: 220rpx;
+  margin-left: 175rpx;
+}
+
+.tip-text2 {
+  display: inline-block;
+  margin-left: 100rpx;
+}
+
+.tip-text3 {
+  width: 400rpx;
+  display: inline-block;
+  margin-top: 20rpx;
+  margin-left: 220rpx;
+}
+
+.right-btn {
+  margin-top: 100rpx;
+  display: inline-block;
+  margin-left: 220rpx;
+}
+
+.right-claim1 {
+  display: inline-block;
+  color: gray;
+  margin-top: 300rpx;
+  width: 550rpx;
+  margin-left: 110rpx;
+}
+
+.right-claim2 {
+  display: inline-block;
+  color: gray;
+  margin-top: 20rpx;
+  width: 550rpx;
+  margin-left: 250rpx;
+}
+
+.right-claim3 {
+  display: inline-block;
+  color: gray;
+  margin-top: 20rpx;
+  width: 550rpx;
+  margin-left: 190rpx;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+@charset "utf-8";
+
+.sound-icon{
+  position: fixed;
+    top: 20rpx;
+    right: 10rpx;
+  width: 90rpx;
+  height: 90rpx;
+  z-index: 10;
+}
+
+.map{
+  margin-top: 80px;
+  white-space: nowrap;
+}
+
+.tiles li{
+  float: left; width: 300px; margin-right: 15px;
+}
+
+.map_box{
+  width: 817px;
+  height: 673px;
+  background: url(https://www.cultureinnovation.top:8000/media/provinces/box.png) no-repeat 0 0;
+  position: relative;
+  display: inline-block;
+}
+.map_box a{
+  position: absolute;
+  line-height: 1000px;
+  overflow: hidden;
+}
+
+.map_gs{
+  width: 228px;
+  height: 192px;
+  top:213px;
+  left: 275px;
+  z-index: 5;
+  background: url(https://www.cultureinnovation.top:8000/media/province/gs.png) no-repeat 0 0;
+    transform: rotate(-1deg);
+}
+
+.map_xj{
+  width: 326px;
+  height:246px;
+  top: 79px;
+  left: 3px;
+  background: url(https://www.cultureinnovation.top:8000/media/province/xj.png) no-repeat 0 0;
+    transform: rotate(2deg);
+}
+
+.map_xz{
+  width: 316px;
+  height:190px;
+  top: 311px;
+  left: 38px;
+  background: url(https://www.cultureinnovation.top:8000/media/province/xz.png) no-repeat 0 0;
+}
+
+.map_qh{
+  width: 204px;
+  height:144px;
+  top: 274px;
+  left: 212px;
+  z-index: 10;
+  background: url(https://www.cultureinnovation.top:8000/media/province/qh.png) no-repeat 0 0;
+    transform: rotate(-1deg);
+}
+
+.map_nmg{
+  width: 358px;
+  height: 304px;
+  top: 7px;
+  left: 343px;
+  background: url(https://www.cultureinnovation.top:8000/media/province/nmg.png) no-repeat 0 0;
+}
+
+.map_hlj{
+  width: 180px;
+  height: 162px;
+  top: 1px;
+  right: 0;
+  background: url(https://www.cultureinnovation.top:8000/media/province/hlj.png) no-repeat 0 0;
+}
+
+.map_jl{
+  width: 134px;
+  height: 90px;
+  top: 129px;
+  right: 17px;
+  background: url(https://www.cultureinnovation.top:8000/media/province/jl.png) no-repeat 0 0;
+}
+
+.map_ln{
+  width: 94px;
+  height: 88px;
+  top: 182px;
+  right: 78px;
+  background: url(https://www.cultureinnovation.top:8000/media/province/ln.png) no-repeat 0 0;
+}
+
+.map_hb{
+  width: 88px;
+  height: 124px;
+  top: 208px;
+  right: 154px;
+  background: url(https://www.cultureinnovation.top:8000/media/province/hb.png) no-repeat 0 0;
+}
+
+.map_bj{
+  width: 28px;
+  height: 28px;
+  top: 238px;
+  right: 189px;
+  background: url(https://www.cultureinnovation.top:8000/media/province/bj.png) no-repeat 0 0;
+}
+
+.map_tj{
+  width: 23px;
+  height: 28px;
+  top: 252px;
+  right: 174px;
+  background: url(https://www.cultureinnovation.top:8000/media/province/tj.png) no-repeat 0 0;
+}
+
+.map_yn{
+  width: 144px;
+  height: 148px;
+  bottom: 57px;
+  left: 324px;
+  background: url(https://www.cultureinnovation.top:8000/media/province/yn.png) no-repeat 0 0;
+}
+
+.map_sc{
+  width: 176px;
+  height: 154px;
+  bottom: 146px;
+  left: 330px;
+  background: url(https://www.cultureinnovation.top:8000/media/province/sc.png) no-repeat 0 0;
+}
+
+.map_gx{
+  width: 126px;
+  height: 94px;
+  bottom: 62px;
+  left: 442px;
+  background: url(https://www.cultureinnovation.top:8000/media/province/gx.png) no-repeat 0 0;
+}
+
+.map_gd{
+  width: 128px;
+  height: 100px;
+  bottom: 44px;
+  left: 532px;
+  background: url(https://www.cultureinnovation.top:8000/media/province/gd.png) no-repeat 0 0;
+}
+
+.xg_box{
+    position: absolute;
+    line-height: 1000px;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    bottom: 55px;
+    left: 600px;
+}
+
+.am_box{
+    position: absolute;
+    line-height: 1000px;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    bottom: 40px;
+    left: 570px;
+}
+
+.map_xg{
+    position: relative;
+    width: 128px;
+    height: 100px;
+    left: -30px;
+    top: -12px;
+    background: url(https://www.cultureinnovation.top:8000/media/province/xg.png) no-repeat 0 0;
+}
+
+.map_am{
+    position: relative;
+    width: 128px;
+    height: 100px;
+    left: -30px;
+    top: -12px;
+    background: url(https://www.cultureinnovation.top:8000/media/province/am.png) no-repeat 0 0;
+}
+
+.map_fj{
+  width: 72px;
+  height: 86px;
+  bottom: 116px;
+  left: 633px;
+  background: url(https://www.cultureinnovation.top:8000/media/province/fj.png) no-repeat 0 0;
+}
+
+.map_hn{
+  width: 42px;
+  height: 34px;
+  bottom: 4px;
+  left: 514px;
+  background: url(https://www.cultureinnovation.top:8000/media/province/hn.png) no-repeat 0 0;
+}
+
+.map_tw{
+  width: 28px;
+  height: 64px;
+  bottom: 91px;
+  left: 708px;
+  background: url(https://www.cultureinnovation.top:8000/media/province/tw.png) no-repeat 0 0;
+}
+
+.map_zj{
+  width: 62px;
+  height: 70px;
+  bottom: 186px;
+  left: 664px;
+  background: url(https://www.cultureinnovation.top:8000/media/province/zj.png) no-repeat 0 0;
+}
+
+.map_js{
+  width: 134px;
+  height: 90px;
+  bottom: 237px;
+  left: 623px;
+  background: url(https://www.cultureinnovation.top:8000/media/province/js.png) no-repeat 0 0;
+}
+
+.map_sh{
+  width: 25px;
+  height: 15px;
+  bottom: 255px;
+  left: 704px;
+  background: url(https://www.cultureinnovation.top:8000/media/province/sh.png) no-repeat 0 0;
+}
+
+.map_sd{
+  width: 110px;
+  height: 68px;
+  bottom: 314px;
+  left: 602px;
+  background: url(https://www.cultureinnovation.top:8000/media/province/sd.png) no-repeat 0 0;
+}
+
+.map_gz{
+  width: 96px;
+  height: 82px;
+  bottom: 124px;
+  left: 427px;
+  background: url(https://www.cultureinnovation.top:8000/media/province/gz.png) no-repeat 0 0;
+}
+
+
+.map_hunan{
+  width: 88px;
+  height: 100px;
+  bottom: 125px;
+  left: 515px;
+  background: url(https://www.cultureinnovation.top:8000/media/province/hunan.png) no-repeat 0 0;
+}
+
+.map_jx{
+  width: 78px;
+  height: 102px;
+  bottom: 127px;
+  left: 593px;
+  background: url(https://www.cultureinnovation.top:8000/media/province/jx.png) no-repeat 0 0;
+}
+
+.map_ah{
+  width: 78px;
+  height: 92px;
+  bottom: 223px;
+  left: 605px;
+  background: url(https://www.cultureinnovation.top:8000/media/province/ah.png) no-repeat 0 0;
+}
+
+.map_cq{
+  width: 72px;
+  height: 72px;
+  bottom: 188px;
+  left: 459px;
+  background: url(https://www.cultureinnovation.top:8000/media/province/cq.png) no-repeat 0 0;
+}
+
+.map_hubei{
+  width: 124px;
+  height: 76px;
+  bottom: 206px;
+  left: 505px;
+  background: url(https://www.cultureinnovation.top:8000/media/province/hubei.png) no-repeat 0 0;
+}
+
+.map_henan{
+  width: 94px;
+  height: 90px;
+  bottom: 255px;
+  left: 533px;
+  background: url(https://www.cultureinnovation.top:8000/media/province/henan.png) no-repeat 0 0;
+}
+
+.map_sx{
+  width: 56px;
+  height: 118px;
+  bottom: 306px;
+  left: 529px;
+  background: url(https://www.cultureinnovation.top:8000/media/province/sxi.png) no-repeat 0 0;
+}
+
+.map_sxi{
+  width: 82px;
+  height: 144px;
+  bottom: 255px;
+  left: 459px;
+  background: url(https://www.cultureinnovation.top:8000/media/province/sx.png) no-repeat 0 0;
+}
+
+.map_nx{
+  width: 46px;
+  height: 76px;
+  bottom: 318px;
+  left: 437px;
+  z-index: 15;
+  background: url(https://www.cultureinnovation.top:8000/media/province/nx.png) no-repeat 0 0;
+}
+
+
+.company_info .divider-heading{
+  margin-bottom: 40px;
+}
+.black{
+  color: #000;
+}
+.company_info ul , .company_info li{
+  list-style: none;
+}
+.company_info li{
+  border: 1px solid #dcdcdc;
+  width: 300px;
+  background: #fbfbfb;
+  border-radius: 5px;
+  box-shadow: 0 0 6px #ddd;
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+.company_info li a{
+  display: block;
+}
+.company_info #main li a:hover{
+  text-decoration: none;
+}
+.company_info #main li img{
+  width: 100%;
+  border: 0 none!important;
+  border-radius: 5px 5px 0 0;
+}
+.company_info li p{
+  color: #013467;
+  width: 260px;
+  margin: 0 auto ;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.company_text{
+  padding: 20px 0;
+}
+
+.scroll-box{
+  height: 1400rpx;
+  overflow: hidden;
+}
+
+.blank {
+  height: 180rpx;
+  background-color: #f4f4f4;
+}
+
+.fix-bottom {
+  position: fixed;
+  z-index: 500;
+  width: 750rpx;
+  background: #f4f4f4;
+  bottom: 0rpx;
+  overflow: hidden;
+  height: 130rpx;
+}
+
+.buy-button {
+  display: inline-block;
+  position: relative;
+  background: #f4f4f4;
+  vertical-align: middle;
+  width: 250rpx;
+  height: 150rpx;
+  bottom: 20rpx;
+}
+
+.buy-button::after {
+  border: none;
+}
+
+.buy-image {
+  width: 165rpx;
+  height: 165rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.btn-text {
+  position: absolute;
+  right: 90rpx;
+  top: 90rpx;
+  font-size: 32rpx;
+  font-family: '华文隶书';
+}

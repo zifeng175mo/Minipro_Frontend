@@ -1,0 +1,13 @@
+<!--pages/summary/summary.wxml-->
+
+<view class="head">你的闯关结果如下，请再接再厉！</view>
+<view class="result">正确数：{{5-wrongs.length}}/5</view>
+<block wx:for="{{wrongs}}" wx:for-index="idx" wx:key="{{index}}" class="box">
+    <view class="question">{{item.index+1}}：{{item.title}}</view>
+    <view class="answer">答案：{{item.answer}}</view>
+</block>
+
+<button class="weui-btn btn1" bindtap="goMap">返回地图</button>
+<button class="weui-btn btn2" bindtap="goTest">返回测试</button>
+<!--<image src="../../images/backtomap.png" class="button-img"></image>-->
+<!--<image src="../../images/backtotest.png" class="button-img"></image>-->

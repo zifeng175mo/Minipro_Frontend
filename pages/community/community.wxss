@@ -1,0 +1,185 @@
+page {
+    background-image: url('https://www.cultureinnovation.top:8000/media/common_back.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 100%, 100%;
+}
+
+.icon {
+    position: absolute;
+    left: 570rpx;
+    width: 80rpx;
+    height: 80rpx;
+}
+
+.history {
+    height: 100%;
+    width: 100%;
+    padding: 20rpx 0rpx 20rpx 0rpx;
+    font-size: 14px;
+    line-height: 50rpx;
+    word-break: break-all;
+    position: relative;
+}
+
+.dynamic {
+    width: 80%;
+    margin-top: 50rpx;
+    margin-left: 70rpx;
+    margin-right: 40rpx;
+    border-radius: 10rpx;
+    background-color: rgba(255,245,225,0.1);
+    padding-bottom: 30rpx;
+}
+
+.user-box {
+    width: 100%;
+    padding-top: 30rpx;
+    padding-bottom: 30rpx;
+}
+
+.user-header {
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 20rpx;
+    margin-left: 30rpx;
+}
+
+.judge {
+    display: inline-block;
+    position: absolute;
+    margin-left: 320rpx;
+    font-size: 30rpx;
+    color: #dddddd;
+}
+
+.name {
+    display: inline-block;
+    position: absolute;
+    font-size: 30rpx;
+    font-weight: 550;
+    margin-left: 30rpx;
+    color: #e1e1e1;
+}
+
+.time {
+    display: inline-block;
+    position: absolute;
+    margin-left: 30rpx;
+    margin-top: 50rpx;
+    color: #eee;
+}
+
+.avatar {
+    display: inline-block;
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.text-box {
+    width: 100%;
+    margin-top: 10rpx;
+    display: inline-block;
+}
+
+.user-text {
+    font-size: 28rpx;
+    max-width: 550rpx;
+    margin-left: 30rpx;
+    float: left;
+    color: #cccccc;
+}
+
+.img-box {
+    width: 100%;
+    margin-top: 10rpx;
+    display: inline-block;
+}
+
+.image {
+    width: 180rpx;
+    height: 180rpx;
+}
+
+.no-border {
+    border: none;
+}
+
+.blank {
+    height: 230rpx;
+}
+
+.fix-bottom {
+    position: fixed;
+    z-index: 500;
+    width: 750rpx;
+    background: rgba(244,242,228,0.7);
+    bottom: 0rpx;
+    overflow: hidden;
+    height: 110rpx;
+}
+
+.buy-button {
+    display: inline-block;
+    position: relative;
+    background: transparent;
+    vertical-align: middle;
+    width: 250rpx;
+    height: 150rpx;
+    bottom: 40rpx;
+}
+
+.buy-button::after {
+    border: none;
+}
+
+.buy-image {
+    width: 165rpx;
+    height: 165rpx;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.btn-text {
+    position: absolute;
+    right: 90rpx;
+    top: 90rpx;
+    font-size: 32rpx;
+    font-family: '华文隶书';
+}
+
+.like {
+    float: right;
+    display: inline-block;
+    margin-right: 40rpx;
+}
+
+.comment {
+    float: right;
+    display: inline-block;
+    margin-right: 20rpx;
+}
+
+.icon-img {
+    width: 50rpx;
+    height: 50rpx;
+}
+
+.icon-text {
+    font-size: 24rpx;
+    color: gray;
+}
+
+.sound-icon{
+    position: fixed;
+    top: 20rpx;
+    right: 20rpx;
+    width: 90rpx;
+    height: 90rpx;
+    z-index: 10;
+}

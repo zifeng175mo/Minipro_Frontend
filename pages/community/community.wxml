@@ -1,0 +1,53 @@
+<scroll-view class="history" scroll-y="true" scroll-with-animation>
+    <view bindtap="soundOpt">
+        <image wx:if="{{sound}}" src="../../images/icon/mute.png" class="sound-icon"/>
+        <image wx:if="{{!sound}}" src="../../images/icon/soundsize.png" class="sound-icon"/>
+    </view>
+    <view class="dynamic">
+        <block wx:for="{{content_list}}" wx:for-index="idx" wx:key="{{index}}">
+            <view class="user-box">
+                <view class="user-header">
+                    <image src="{{item.avatar}}" class="avatar"></image>
+                    <text class="name">{{item.user}}</text>
+                    <text class="time">{{item.time}}</text>
+                    <view class="judge">（已审核）</view>
+                </view>
+                <view class="text-box">
+                    <text class="user-text">{{item.text}}</text>
+                </view>
+                <view class="img-box">
+                    <block wx:for="{{item.image}}" wx:key="*this">
+                        <view class="weui-grid no-border" bindtap="preview" data-url="{{index}}" data-index="{{idx}}">
+                            <image class="image" src="{{item}}"/>
+                        </view>
+                    </block>
+                </view>
+                <view class="comment" bindtap="comment" data-id="{{item.id}}">
+                    <image src="../../images/icon/comment.png" class="icon-img" wx:if="true"></image>
+                    <text class="icon-text">{{item.comment_count}}</text>
+                </view>
+                <view class="like" bindtap="like" data-id="{{item.id}}" data-index="{{idx}}">
+                    <image src="../../images/icon/like.png" class="icon-img" wx:if="{{!item.like}}"></image>
+                    <image src="../../images/icon/liked.png" class="icon-img" wx:if="{{item.like}}"></image>
+                    <text class="icon-text">{{item.like_count}}</text>
+                </view>
+            </view>
+        </block>
+    </view>
+    <view class="blank">
+        <view class="fix-bottom">
+            <button class="buy-button" bindtap="goMap">
+                <image src="../../images/icon/tabbar1.png" class="buy-image"></image>
+                <text class="btn-text">首页</text>
+            </button>
+            <button class="buy-button" bindtap="goCommu">
+                <image src="../../images/icon/tabbar2.png" class="buy-image"></image>
+                <text class="btn-text">逸闻</text>
+            </button>
+            <button class="buy-button" bindtap="goInfo">
+                <image src="../../images/icon/tabbar3.png" class="buy-image"></image>
+                <text class="btn-text">我的</text>
+            </button>
+        </view>
+    </view>
+</scroll-view>

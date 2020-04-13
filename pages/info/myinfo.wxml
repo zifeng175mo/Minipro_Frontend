@@ -1,0 +1,58 @@
+<view class="page" xmlns:wx="http://www.w3.org/1999/XSL/Transform">
+    <view bindtap="soundOpt">
+        <image wx:if="{{sound}}" src="../../images/icon/mute.png" class="sound-icon"/>
+        <image wx:if="{{!sound}}" src="../../images/icon/soundsize.png" class="sound-icon"/>
+    </view>
+    <view class="userinfo">
+        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+        <view class="address">
+            <text>{{userInfo.country}}{{userInfo.province}}{{userInfo.city}}</text>
+        </view>
+        <view class="gender">
+            <image src="../../images/icon/male.png" wx:if="{{userInfo.gender == 1}}" class="gender-icon"></image>
+            <image src="../../images/icon/female.png" wx:if="{{userInfo.gender == 2}}" class="gender-icon"></image>
+            <text wx:else></text>
+        </view>
+    </view>
+
+    <view class="weui-panel__bd">
+        <navigator url="../achievement/achievement" class="weui-cell weui-cell_example weui-cell_access">
+            <view class="icon">
+                <image src="../../images/icon/achievement.png" class="icon"/>
+            </view>
+            <view class="achievement">
+                <view>已达成的成就</view>
+            </view>
+        </navigator>
+    </view>
+    <view class="weui-panel__bd">
+        <navigator url="../claim/claim" class="weui-cell weui-cell_example weui-cell_access">
+            <view class="icon">
+                <image src="../../images/icon/achievement.png" class="icon"/>
+            </view>
+            <view class="achievement">
+                <view>版权声明</view>
+            </view>
+        </navigator>
+    </view>
+<!--    <button class="weui-btn btn-room" bindtap="goRoom">聊天室</button>-->
+<!--    <button class="weui-btn btn-comm" bindtap="goComm">我的逸闻</button>-->
+
+    <view class="blank">
+        <view class="fix-bottom">
+            <button class="buy-button" bindtap="goMap">
+                <image src="../../images/icon/tabbar1.png" class="buy-image"></image>
+                <text class="btn-text">首页</text>
+            </button>
+            <button class="buy-button" bindtap="goCommu">
+                <image src="../../images/icon/tabbar2.png" class="buy-image"></image>
+                <text class="btn-text">逸闻</text>
+            </button>
+            <button class="buy-button" bindtap="goInfo">
+                <image src="../../images/icon/tabbar3.png" class="buy-image"></image>
+                <text class="btn-text">我的</text>
+            </button>
+        </view>
+    </view>
+</view>

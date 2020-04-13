@@ -1,0 +1,27 @@
+<!--pages/province/province.wxml-->
+<view bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd">
+    <view>
+        <image src="../../images/icon/ok.png" class="ok-icon"></image>
+        <view class="judge">内容已审核</view>
+    </view>
+    <view bindtap="soundOpt">
+        <image wx:if="{{sound}}" src="../../images/icon/mute.png" class="sound-icon"/>
+        <image wx:if="{{!sound}}" src="../../images/icon/soundsize.png" class="sound-icon"/>
+    </view>
+    <text class="province">{{province_name}}</text>
+    <text class="index" wx:if="{{!flag}}">{{index + 1}}/{{number}}</text>
+    <text class="poem-name">{{poem_name}}</text>
+    <text class="author">{{author}}</text>
+    <text class="poem-content">{{poem_content}}</text>
+    <view class="box">
+        <text class="head" wx:if="{{!flag}}">译文：</text>
+        <text class="translation">{{translation}}</text>
+    </view>
+    <view class="box" id="bottom-box">
+        <text class="head" wx:if="{{!flag}}">作者简介：</text>
+        <text class="introduction">{{introduction}}</text>
+    </view>
+    <view class="button-box">
+        <button class="weui-btn btn" bindtap="goTest" wx:if="{{!flag}}">开始闯关</button>
+    </view>
+</view>

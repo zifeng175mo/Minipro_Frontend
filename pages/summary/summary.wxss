@@ -1,0 +1,62 @@
+/* pages/summary/summary.wxss */
+page {
+    background-image: url('https://www.cultureinnovation.top:8000/media/common_back.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 100%, 100%;
+}
+
+.head {
+    color: #eeeeee;
+    font-size: 40rpx;
+    width: 100%;
+    text-align: center;
+    margin-top: 150rpx;
+}
+
+.result {
+    color: #aaeeaa;
+    font-size: 60rpx;
+    width: 100%;
+    text-align: center;
+    margin-top: 40rpx;
+}
+
+.box {
+    margin-top: 40rpx;
+    width: 100%;
+
+}
+
+.question {
+    color: #eeeeee;
+    width: 80%;
+    margin-left: 90rpx;
+    margin-top: 30rpx;
+}
+
+.answer {
+    color: wheat;
+    width: 100%;
+    font-weight: bold;
+    margin-left: 90rpx;
+    margin-top: 20rpx;
+    margin-bottom: 40rpx;
+}
+
+.btn1 {
+    display: inline-block;
+    width: 200rpx;
+    margin-left: 150rpx;
+    background-color: rgba(100,200,230,0.5);
+    color: aliceblue;
+}
+
+.btn2 {
+    display: inline-block;
+    width: 200rpx;
+    margin-left: 40rpx;
+    background-color: rgba(100,200,230,0.5);
+    color: aliceblue;
+}

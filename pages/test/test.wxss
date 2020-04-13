@@ -1,0 +1,102 @@
+/* pages/test/test.wxss */
+@import '../../style/FZZJ.wxss'
+
+page {
+    background-image: url('https://www.cultureinnovation.top:8000/media/common_back.jpg');
+    background-size: 750rpx 1400rpx;
+}
+
+.page-index {
+    margin-top: 40rpx;
+    margin-left: 560rpx;
+    font-size: 50rpx;
+    font-weight: 580;
+    font-family: "Arial Unicode MS";
+}
+
+.question-box {
+    width: 560rpx;
+    padding: 50rpx 50rpx 50rpx 50rpx;
+    margin-left: 35rpx;
+    margin-top: 10rpx;
+    border-radius: 50rpx;
+    word-break: break-all;
+    background-color: rgba(1,1,1,0.1);
+}
+
+.question {
+    max-width: 640rpx;
+    font-size: 32rpx;
+    font-weight: 580;
+    text-indent: 64rpx;
+    color: #ddd;
+}
+
+.option-box {
+    width: 640rpx;
+    margin-top: 40rpx;
+    margin-left: 60rpx;
+}
+
+.option {
+    display: inline-block;
+    width: 640rpx;
+    margin-top: 20rpx;
+    font-size: 30rpx;
+    background-color: transparent;
+    border: none;
+    color: #ddd;
+    font-weight: 500;
+}
+
+.option::after {
+    border: none;
+}
+
+.navi-box {
+    position: fixed;
+    z-index: 500;
+    width: 750rpx;
+    background: transparent;
+    bottom: -20rpx;
+}
+
+.navi-box > button {
+    display: inline-block;
+    width: 250rpx;
+    height: 130rpx;
+    background-color: aliceblue;
+}
+
+.btn-text {
+    font-family: 'FZZJ-TTYBFONT';
+    font-size: 46rpx;
+}
+
+.sound-icon {
+    position: fixed;
+    top: 30rpx;
+    right: 10rpx;
+    width: 90rpx;
+    height: 90rpx;
+    z-index: 10;
+}
+
+.ok-icon {
+    position: absolute;
+    top: 30rpx;
+    left: 10rpx;
+    width: 70rpx;
+    height: 70rpx;
+    z-index: 10;
+}
+
+.judge {
+    position: absolute;
+    top: 35rpx;
+    left: 80rpx;
+    height: 70rpx;
+    z-index: 10;
+    color: #dddddd;
+}
+

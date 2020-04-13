@@ -1,0 +1,37 @@
+/* pages/dynamic/dynamic.wxss */
+.dynamic {
+    width: 90%;
+    margin-top: 50rpx;
+    padding-left: 40rpx;
+    margin-right: 40rpx;
+    background-color: #fdfdfd;
+}
+
+.btn-box {
+    width: 100%;
+    display: inline-block;
+}
+
+.add {
+    background: rgba(0, 153, 255, 0.6);
+    vertical-align: middle;
+    font-size: 30rpx;
+    line-height: 50rpx;
+    float: right;
+    margin-right: 30rpx;
+    width: 120rpx;
+    height: 60rpx;
+    color: white;
+}
+
+.cancel {
+    background: red;
+    vertical-align: middle;
+    font-size: 30rpx;
+    line-height: 50rpx;
+    float: left;
+    margin-left: 30rpx;
+    width: 120rpx;
+    height: 60rpx;
+    color: white;
+}

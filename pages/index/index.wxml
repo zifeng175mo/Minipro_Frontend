@@ -1,0 +1,69 @@
+<!--index.wxml-->
+<view class="container">
+    <block>
+        <view class="scroll-box" bindtap="getpos">
+            <scroll-view scroll-x scroll-y>
+                <view bindtap="soundOpt">
+                    <image wx:if="{{sound}}" src="../../images/icon/mute.png" class="sound-icon"/>
+                    <image wx:if="{{!sound}}" src="../../images/icon/soundsize.png" class="sound-icon"/>
+                </view>
+                <view class="map_box">
+                    <a id="xinjiang" class="map_xj" bindtap="pageNavi">新疆</a>
+                    <a id="xizang" class="map_xz" bindtap="pageNavi">西藏</a>
+                    <a id="qinghai" class="map_qh" bindtap="pageNavi">青海</a>
+                    <a id="gansu" class="map_gs" bindtap="pageNavi">甘肃</a>
+                    <a id="neimenggu" class="map_nmg" bindtap="pageNavi">内蒙古</a>
+                    <a id="heilongjiang" class="map_hlj" bindtap="pageNavi">黑龙江</a>
+                    <a id="jilin" class="map_jl" bindtap="pageNavi">吉林</a>
+                    <a id="liaoning" class="map_ln" bindtap="pageNavi">辽宁</a>
+                    <a id="hebei" class="map_hb" bindtap="pageNavi">河北</a>
+                    <a id="beijing" class="map_bj" bindtap="pageNavi">北京</a>
+                    <a id="tianjin" class="map_tj" bindtap="pageNavi">天津</a>
+                    <a id="yunnan" class="map_yn" bindtap="pageNavi">云南</a>
+                    <a id="sichuan" class="map_sc" bindtap="pageNavi">四川</a>
+                    <a id="guangxi" class="map_gx" bindtap="pageNavi">广西</a>
+                    <a id="guangdong" class="map_gd" bindtap="pageNavi">广东</a>
+                    <a id="jiangxi" class="map_jx" bindtap="pageNavi">江西</a>
+                    <a id="fujian" class="map_fj" bindtap="pageNavi">福建</a>
+                    <a id="hainan" class="map_hn" bindtap="pageNavi">海南</a>
+                    <a id="taiwan" class="map_tw" bindtap="pageNavi">台湾</a>
+                    <a id="zhejiang" class="map_zj" bindtap="pageNavi">浙江</a>
+                    <a id="jiangsu" class="map_js" bindtap="pageNavi">江苏</a>
+                    <a id="shanghai" class="map_sh" bindtap="pageNavi">上海</a>
+                    <a id="shandong" class="map_sd" bindtap="pageNavi">山东</a>
+                    <a id="guizhou" class="map_gz" bindtap="pageNavi">贵州</a>
+                    <a id="hunan" class="map_hunan" bindtap="pageNavi">湖南</a>
+                    <a id="anhui" class="map_ah" bindtap="pageNavi">安徽</a>
+                    <a id="chongqing" class="map_cq" bindtap="pageNavi">重庆</a>
+                    <a id="hubei" class="map_hubei" bindtap="pageNavi">湖北</a>
+                    <a id="henan" class="map_henan" bindtap="pageNavi">河南</a>
+                    <a id="sxi" class="map_sx" bindtap="pageNavi">山西</a>
+                    <a id="shanxi" class="map_sxi" bindtap="pageNavi">陕西</a>
+                    <a id="ningxia" class="map_nx" bindtap="pageNavi">宁夏</a>
+                    <view class="xg_box">
+                        <a id="xianggang" class="map_xg" bindtap="pageNavi"></a>
+                    </view>
+                    <view class="am_box">
+                        <a id="aomen" class="map_am" bindtap="pageNavi"></a>
+                    </view>
+                </view>
+            </scroll-view>
+        </view>
+        <view class="blank">
+            <view class="fix-bottom">
+                <button class="buy-button" bindtap="goMap">
+                    <image src="../../images/icon/tabbar1.png" class="buy-image"></image>
+                    <text class="btn-text">首页</text>
+                </button>
+                <button class="buy-button" bindtap="goCommu">
+                    <image src="../../images/icon/tabbar2.png" class="buy-image"></image>
+                    <text class="btn-text">逸闻</text>
+                </button>
+                <button class="buy-button" bindtap="goInfo">
+                    <image src="../../images/icon/tabbar3.png" class="buy-image"></image>
+                    <text class="btn-text">我的</text>
+                </button>
+            </view>
+        </view>
+    </block>
+</view>

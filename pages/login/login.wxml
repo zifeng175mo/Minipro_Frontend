@@ -1,0 +1,11 @@
+<view class="tip-text0">跟着地图漫游唐诗</view>
+<view class="tip-text3">还有趣味闯关游戏哦</view>
+<view class="tip-text1">为了您获得更好的用户体验</view>
+<view class="tip-text2">请授权使用您的头像与昵称等基本信息</view>
+<button open-type="getUserInfo" bindgetuserinfo="getUserInfo"
+        class="weui-btn right-btn">
+    获取头像昵称
+</button>
+<view class="right-claim1">该小程序用做学术研究，不涉及商用</view>
+<view class="right-claim2">版权问题请联系</view>
+<view class="right-claim3">2261034870@qq.com</view>

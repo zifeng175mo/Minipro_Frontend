@@ -1,0 +1,41 @@
+<!--&lt;!&ndash;pages/dynamic/dynamic.wxml&ndash;&gt;-->
+<!--<view class="dynamic">-->
+<!--    <view class="btn-box">-->
+<!--        <button class="add" bindtap="add">添加</button>-->
+<!--        <button class="cancel" bindtap="cancel">取消</button>-->
+<!--    </view>-->
+<!--    <view class="weui-cells__title">添加逸闻</view>-->
+<!--    <view class="weui-cells weui-cells_after-title">-->
+<!--        <view class="weui-cell">-->
+<!--            <view class="weui-cell__bd">-->
+<!--                <textarea class="weui-textarea" placeholder="请输入文本" bindinput="bindKeyInput" value='{{InputValue}}'-->
+<!--                          disabled='{{full}}' style="height: 3.3em"/>-->
+<!--                <view class="weui-textarea-counter">{{text_len}}/400</view>-->
+<!--            </view>-->
+<!--        </view>-->
+<!--    </view>-->
+<!--    <view class="weui-uploader">-->
+<!--        <view class="weui-uploader__hd">-->
+<!--            <view class="weui-uploader__overview">-->
+<!--                <view class="weui-uploader__title">图片上传</view>-->
+<!--                <view class="weui-uploader__info">已选中{{imgs.length}}</view>-->
+<!--            </view>-->
+<!--            <view class="weui-uploader__tips">-->
+<!--                上传提示-->
+<!--            </view>-->
+<!--        </view>-->
+<!--        <view class="weui-uploader__bd">-->
+<!--            <view class="weui-uploader__files" style="margin-left: 30rpx" id="uploaderFiles">-->
+<!--                <block wx:for="{{imgs}}" wx:key="*this">-->
+<!--                    <view class="weui-uploader__file" bindtap="previewImage" data-index="{{index}}" id="{{item}}">-->
+<!--                        <image class="weui-uploader__img" src="{{item}}" mode="aspectFill"/>-->
+<!--                    </view>-->
+<!--                </block>-->
+<!--                <view class="weui-uploader__input-box">-->
+<!--                    <view class="weui-uploader__input" bindtap="chooseImage"></view>-->
+<!--                </view>-->
+<!--            </view>-->
+<!--        </view>-->
+<!--    </view>-->
+<!--</view>-->
+

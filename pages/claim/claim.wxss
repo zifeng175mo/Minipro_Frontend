@@ -1,0 +1,34 @@
+/* pages/claim/claim.wxss */
+
+.right-claim {
+    display: inline-block;
+    color: gray;
+    width: 690rpx;
+    margin-top: 40rpx;
+    margin-left: 30rpx;
+    text-align: center;
+}
+
+.right-claim1 {
+    display: inline-block;
+    color: gray;
+    margin-top: 300rpx;
+    width: 550rpx;
+    margin-left: 110rpx;
+}
+
+.right-claim2 {
+    display: inline-block;
+    color: gray;
+    margin-top: 20rpx;
+    width: 550rpx;
+    margin-left: 260rpx;
+}
+
+.right-claim3 {
+    display: inline-block;
+    color: gray;
+    margin-top: 20rpx;
+    width: 550rpx;
+    margin-left: 200rpx;
+}

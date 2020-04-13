@@ -1,0 +1,28 @@
+<!--pages/test/test.wxml-->
+<view class="page-index">{{current_index+1}}/5</view>
+<view>
+    <image src="../../images/icon/ok.png" class="ok-icon"></image>
+    <view class="judge">内容已审核</view>
+</view>
+<view bindtap="soundOpt">
+    <image wx:if="{{sound}}" src="../../images/icon/mute.png" class="sound-icon"/>
+    <image wx:if="{{!sound}}" src="../../images/icon/soundsize.png" class="sound-icon"/>
+</view>
+<view class="question-box">
+    <view class="question">
+        {{test_list[current_index].question}}
+    </view>
+</view>
+<view class="option-box">
+    <button wx:for="{{test_list[current_index].options}}" wx:key="index" class="option" bindtap="select"
+            data-index="{{index}}"
+            style="font-size: {{(index == selected_index || index == answer_index) && selected == true ? '40rpx':'30rpx'}};;color: {{color[index]}}">
+        {{item}}
+    </button>
+</view>
+
+<!--<view class="navi-box">-->
+<!--    <button disabled="{{current_index==0}}" class="btn-text" bindtap="previous">上一题</button>-->
+<!--    <button disabled="{{current_index==4}}" class="btn-text" bindtap="next">下一题</button>-->
+<!--    <button disabled="{{nosubmit}}" class="btn-text" bindtap="submit">提交</button>-->
+<!--</view>-->

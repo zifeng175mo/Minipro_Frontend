@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/community/community",
+    "pages/achievement/achievement",
+    "pages/info/myinfo",
+    "pages/comment/comment",
+    "pages/dynamic/dynamic",
+    "pages/test/test",
+    "pages/room/room",
+    "pages/province/province",
+    "pages/logs/logs",
+    "pages/mycom/mycom",
+    "pages/login",
+    "pages/summary/summary",
+    "pages/claim/claim",
+    "pages/login/login"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f4f4f4",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

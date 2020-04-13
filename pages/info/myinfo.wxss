@@ -1,0 +1,158 @@
+/**myinfo.wxss**/
+page {
+    background-image: url('https://www.cultureinnovation.top:8000/media/common_back.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 100%, 100%;
+}
+
+.userinfo {
+    margin-top: 75rpx;
+    position: relative;
+    display: block;
+    border: none;
+    width: 100%;
+}
+
+.userinfo-avatar {
+    width: 128rpx;
+    height: 128rpx;
+    margin: 40rpx;
+    border-radius: 50%;
+}
+
+.userinfo-nickname {
+    position: absolute;
+    font-weight: bold;
+    top: 50rpx;
+    color: #cccccc;
+}
+
+.address {
+    display: inline-block;
+    position: absolute;
+    top: 110rpx;
+    font-weight: bold;
+    vertical-align: middle;
+    color: #cccccc;
+}
+
+.gender {
+    display: inline-block;
+    position: absolute;
+    top: 50rpx;
+    right: 120rpx;
+}
+
+.gender-icon {
+    width: 50rpx;
+    height: 50rpx;
+}
+
+.sound-icon{
+    position: fixed;
+    top: 30rpx;
+    right: 20rpx;
+    width: 90rpx;
+    height: 90rpx;
+    z-index: 10;
+}
+
+.icon {
+    display: inline-block;
+    width: 60rpx;
+    height: 60rpx;
+    margin-left: 15rpx;
+}
+
+.achievement {
+    display: inline-block;
+    position: absolute;
+    font-weight: bold;
+    color: #cccccc;
+    font-size: 40rpx;
+    margin-left: 120rpx;
+}
+
+.claim {
+    display: inline-block;
+    position: absolute;
+    font-weight: bold;
+    color: #cccccc;
+    font-size: 40rpx;
+    margin-top: 50rpx;
+    margin-left: 120rpx;
+}
+
+.blank {
+    height: 230rpx;
+}
+
+.fix-bottom {
+    position: fixed;
+    z-index: 500;
+    width: 750rpx;
+    background: rgba(244,242,228,0.7);
+    bottom: 0rpx;
+    overflow: hidden;
+    height: 130rpx;
+}
+
+.buy-button {
+    display: inline-block;
+    position: relative;
+    background: transparent;
+    vertical-align: middle;
+    width: 250rpx;
+    height: 150rpx;
+    bottom: 30rpx;
+}
+
+.buy-button::after {
+    border: none;
+}
+
+.buy-image {
+    width: 165rpx;
+    height: 165rpx;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.btn-text {
+    position: absolute;
+    right: 90rpx;
+    top: 90rpx;
+    font-size: 32rpx;
+    font-family: '华文隶书';
+}
+
+.btn-room {
+    display: inline-block;
+    width: 300rpx;
+    height: 100rpx;
+    margin-left: 250rpx;
+    font-weight: bold;
+    color: #444;
+    background-color: rgb(242,240,228);
+}
+
+.btn-room:after {
+    border: none;
+}
+
+.btn-comm {
+    display: inline-block;
+    width: 300rpx;
+    height: 100rpx;
+    margin-left: 250rpx;
+    font-weight: bold;
+    border: none;
+    color: #444;
+    background-color: rgb(242,240,228);
+}
+
+.btn-comm:after {
+    border: none;
+}

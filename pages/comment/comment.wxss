@@ -1,0 +1,131 @@
+/* pages/comment/comment.wxss */
+page {
+    background-color: #e0e0e0;
+    height: 100%;
+}
+
+.history {
+    height: 100%;
+    width: 100%;
+    padding: 20rpx 20rpx 20rpx 20rpx;
+    font-size: 14px;
+    line-height: 50rpx;
+    word-break: break-all;
+    position: relative;
+    margin-bottom: 50rpx;
+}
+
+.header {
+    font-family: 微軟正黑體;
+    font-size: 40rpx;
+    font-weight: 600;
+    color: #333;
+    margin-left: 30rpx;
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+}
+
+
+.comment-box {
+    width: 100%;
+    padding-top: 20rpx;
+    padding-bottom: 30rpx;
+}
+
+.user-header {
+    display: block;
+    position: relative;
+    width: 80%;
+    max-width: 100%;
+    margin-top: 20rpx;
+    margin-left: 30rpx;
+}
+
+.name {
+    display: inline-block;
+    position: absolute;
+    font-size: 30rpx;
+    font-weight: 550;
+    left: 88rpx;
+}
+
+.time {
+    display: inline-block;
+    float: right;
+    color: gray;
+}
+
+.avatar {
+    postion: absolute;
+    width: 70rpx;
+    height: 70rpx;
+    margin-right: 30rpx;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.text-box {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10rpx;
+}
+
+.comment-text {
+    font-size: 28rpx;
+    max-width: 550rpx;
+    margin-left: 120rpx;
+    margin-top: -30rpx;
+    float: left;
+}
+
+.reply {
+    color: gray;
+    float: left;
+    width: 550rpx;
+    margin-left: 120rpx;
+    margin-top: -30rpx;
+    font-size: 28rpx;
+}
+
+.reply-text {
+    font-size: 28rpx;
+    float: left;
+    max-width: 550rpx;
+    margin-left: 120rpx;
+}
+
+.sendmessage {
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    background-color: #F4F4F6;
+    flex-direction: row;
+    height: 85rpx;
+    padding-bottom: 20rpx;
+}
+
+.sendmessage input {
+    width: 75%;
+    height: 60rpx;
+    background-color: white;
+    line-height: 60rpx;
+    font-size: 28rpx;
+    border-radius: 10rpx;
+    margin-top: 10rpx;
+    margin-left: 20rpx;
+    border: 1px solid #d0d0d0;
+    padding-left: 20rpx;
+}
+
+.sendmessage button {
+    border: 1px solid white;
+    width: 18%;
+    height: 65rpx;
+    background: #00CC00;
+    color: white;
+    line-height: 65rpx;
+    margin-top: 10rpx;
+    font-size: 28rpx;
+}

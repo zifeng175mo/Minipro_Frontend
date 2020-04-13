@@ -1,0 +1,24 @@
+<!--pages/comment/comment.wxml-->
+<scroll-view class="history" id="all" scroll-y="true" scroll-with-animation>
+    <view class="header">热门评论</view>
+    <block wx:for="{{comment_list}}" wx:key="*this">
+        <view class="comment-box" bindtap="keyBoard" data-reply="{{item.user}}">
+            <view class="user-header">
+                <image src="{{item.avatar}}" class="avatar"></image>
+                <text class="name">{{item.user}}</text>
+                <text class="time">{{item.time}}</text>
+            </view>
+            <view class="text-box">
+                <text wx:if="{{item.reply}}" class="reply">回复{{item.reply}}:</text>
+                <text class="{{item.reply?'reply-text':'comment-text '}}">{{item.text}}</text>
+            </view>
+        </view>
+    </block>
+</scroll-view>
+
+<view class="sendmessage" wx:if="{{focus}}">
+    <input type="text" bindinput="bindKeyInput" value='{{inputValue}}' focus="{{focus}}"
+           confirm-type="done" placeholder="{{reply}}"/>
+    <button bindtap="submitTo">发送</button>
+</view>
+

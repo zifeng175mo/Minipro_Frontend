@@ -1,0 +1,55 @@
+/* pages/login/login.wxss */
+.tip-text0 {
+    width: 400rpx;
+    display: inline-block;
+    margin-top: 80rpx;
+    margin-left: 240rpx;
+}
+.tip-text1 {
+    width: 400rpx;
+    display: inline-block;
+    margin-top: 220rpx;
+    margin-left: 175rpx;
+}
+
+.tip-text2 {
+    display: inline-block;
+    margin-left: 100rpx;
+}
+
+.tip-text3 {
+    width: 400rpx;
+    display: inline-block;
+    margin-top: 20rpx;
+    margin-left: 220rpx;
+}
+
+.right-btn {
+    margin-top: 100rpx;
+    display: inline-block;
+    margin-left: 220rpx;
+}
+
+.right-claim1 {
+    display: inline-block;
+    color: gray;
+    margin-top: 300rpx;
+    width: 550rpx;
+    margin-left: 110rpx;
+}
+
+.right-claim2 {
+    display: inline-block;
+    color: gray;
+    margin-top: 20rpx;
+    width: 550rpx;
+    margin-left: 260rpx;
+}
+
+.right-claim3 {
+    display: inline-block;
+    color: gray;
+    margin-top: 20rpx;
+    width: 550rpx;
+    margin-left: 200rpx;
+}

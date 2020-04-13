@@ -1,0 +1,129 @@
+/* pages/province/province.wxss */
+
+@import '../../style/FZZJ.wxss';
+page {
+    background-image: url('https://www.cultureinnovation.top:8000/media/common_back.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 100%, 100%;
+}
+/*1用于没有诗的省份 2反之*/
+
+
+.img {
+    width: 750rpx;
+    height: 1300rpx;
+    vertical-align: middle;
+    position: absolute;
+}
+
+.index {
+    display: inline-block;
+    margin-left: 35rpx;
+    font-size: 50rpx;
+    font-weight: 580;
+    font-family: "Arial Unicode MS";
+}
+
+.province {
+    font-size: 40rpx;
+    font-weight: bold;
+    display: inline-block;
+    text-align: right;
+    margin-bottom: 50rpx;
+    margin-left: 480rpx;
+    padding-top: 95rpx;
+}
+
+.poem-name {
+    font-size: 45rpx;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-top: 20rpx;
+    font-family: '黑体';
+
+}
+
+.author {
+    font-size: 30rpx;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 7rpx;
+    font-family: '仿宋';
+}
+
+.poem-content {
+    font-size: 36rpx;
+    font-family: '黑体';
+    display: block;
+    text-align: center;
+    color: #eeeeee;
+}
+
+.head {
+    font-weight: 600;
+    font-size: 32rpx;
+}
+
+.box {
+    margin: 20rpx 75rpx 0 85rpx;
+}
+
+.translation {
+    text-align: center;
+    width: 650rpx;
+    font-family: '楷体';
+    color: #cccccc;
+}
+
+
+.introduction {
+    text-align: center;
+    font-family: '楷体';
+    color: #cccccc;
+}
+
+#bottom-box {
+    margin-bottom: 200rpx;
+}
+
+.btn {
+    background: rgba(250,235,215,0.6);
+    height: 110rpx;
+    width: 750rpx;
+    position: fixed;
+    bottom: 0rpx;
+    font-size: 46rpx;
+    font-family: 'FZZJ-TTYBFONT';
+}
+
+.sound-icon {
+    position: fixed;
+    top: 20rpx;
+    right: 10rpx;
+    width: 90rpx;
+    height: 90rpx;
+    z-index: 10;
+}
+
+.ok-icon {
+    position: absolute;
+    top: 30rpx;
+    left: 10rpx;
+    width: 70rpx;
+    height: 70rpx;
+    z-index: 10;
+}
+
+.judge {
+    position: absolute;
+    top: 35rpx;
+    left: 80rpx;
+    height: 70rpx;
+    z-index: 10;
+    color: #dddddd;
+}
+
