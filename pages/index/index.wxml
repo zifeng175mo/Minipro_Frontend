@@ -8,38 +8,43 @@
                     <image wx:if="{{!sound}}" src="../../images/icon/soundsize.png" class="sound-icon"/>
                 </view>
                 <view class="map_box">
-                    <a id="xinjiang" class="map_xj" bindtap="pageNavi">新疆</a>
-                    <a id="xizang" class="map_xz" bindtap="pageNavi">西藏</a>
-                    <a id="qinghai" class="map_qh" bindtap="pageNavi">青海</a>
-                    <a id="gansu" class="map_gs" bindtap="pageNavi">甘肃</a>
-                    <a id="neimenggu" class="map_nmg" bindtap="pageNavi">内蒙古</a>
-                    <a id="heilongjiang" class="map_hlj" bindtap="pageNavi">黑龙江</a>
-                    <a id="jilin" class="map_jl" bindtap="pageNavi">吉林</a>
-                    <a id="liaoning" class="map_ln" bindtap="pageNavi">辽宁</a>
-                    <a id="hebei" class="map_hb" bindtap="pageNavi">河北</a>
-                    <a id="beijing" class="map_bj" bindtap="pageNavi">北京</a>
-                    <a id="tianjin" class="map_tj" bindtap="pageNavi">天津</a>
-                    <a id="yunnan" class="map_yn" bindtap="pageNavi">云南</a>
-                    <a id="sichuan" class="map_sc" bindtap="pageNavi">四川</a>
-                    <a id="guangxi" class="map_gx" bindtap="pageNavi">广西</a>
-                    <a id="guangdong" class="map_gd" bindtap="pageNavi">广东</a>
-                    <a id="jiangxi" class="map_jx" bindtap="pageNavi">江西</a>
-                    <a id="fujian" class="map_fj" bindtap="pageNavi">福建</a>
-                    <a id="hainan" class="map_hn" bindtap="pageNavi">海南</a>
-                    <a id="taiwan" class="map_tw" bindtap="pageNavi">台湾</a>
-                    <a id="zhejiang" class="map_zj" bindtap="pageNavi">浙江</a>
-                    <a id="jiangsu" class="map_js" bindtap="pageNavi">江苏</a>
-                    <a id="shanghai" class="map_sh" bindtap="pageNavi">上海</a>
-                    <a id="shandong" class="map_sd" bindtap="pageNavi">山东</a>
-                    <a id="guizhou" class="map_gz" bindtap="pageNavi">贵州</a>
-                    <a id="hunan" class="map_hunan" bindtap="pageNavi">湖南</a>
-                    <a id="anhui" class="map_ah" bindtap="pageNavi">安徽</a>
-                    <a id="chongqing" class="map_cq" bindtap="pageNavi">重庆</a>
-                    <a id="hubei" class="map_hubei" bindtap="pageNavi">湖北</a>
-                    <a id="henan" class="map_henan" bindtap="pageNavi">河南</a>
-                    <a id="sxi" class="map_sx" bindtap="pageNavi">山西</a>
-                    <a id="shanxi" class="map_sxi" bindtap="pageNavi">陕西</a>
-                    <a id="ningxia" class="map_nx" bindtap="pageNavi">宁夏</a>
+                    <a id="xinjiang" class="map_xj" bindtap="pageNavi"></a>
+                    <a id="xizang" class="map_xz" bindtap="pageNavi"></a>
+                    <a id="qinghai" class="map_qh" bindtap="pageNavi"></a>
+                    <a id="gansu" class="map_gs" bindtap="pageNavi"></a>
+                    <a id="neimenggu" class="map_nmg" bindtap="pageNavi"></a>
+                    <a id="heilongjiang" class="map_hlj" bindtap="pageNavi"></a>
+                    <a id="jilin" class="map_jl" bindtap="pageNavi"></a>
+                    <a id="liaoning" class="map_ln" bindtap="pageNavi"></a>
+                    <a id="hebei" class="map_hb" bindtap="pageNavi"></a>
+                    <a id="beijing" class="map_bj" bindtap="pageNavi"></a>
+                    <a id="tianjin" class="map_tj" bindtap="pageNavi"></a>
+                    <a id="yunnan" class="map_yn" bindtap="pageNavi"></a>
+                    <a id="sichuan" class="map_sc" bindtap="pageNavi"></a>
+                    <a id="guangxi" class="map_gx" bindtap="pageNavi"></a>
+                    <a id="guangdong" class="map_gd" bindtap="pageNavi"></a>
+                    <a id="jiangxi" class="map_jx" bindtap="pageNavi"></a>
+                    <a id="fujian" class="map_fj" bindtap="pageNavi"></a>
+                    <a id="hainan" class="map_hn" bindtap="pageNavi"></a>
+                    <a id="taiwan" class="map_tw" bindtap="pageNavi"></a>
+                    <a id="zhejiang" class="map_zj" bindtap="pageNavi"></a>
+                    <a id="jiangsu" class="map_js" bindtap="pageNavi"></a>
+                    <a id="shanghai" class="map_sh" bindtap="pageNavi"></a>
+                    <a id="shandong" class="map_sd" bindtap="pageNavi"></a>
+                    <a id="guizhou" class="map_gz" bindtap="pageNavi"></a>
+                    <a id="hunan" class="map_hunan" bindtap="pageNavi"></a>
+                    <a id="anhui" class="map_ah" bindtap="pageNavi"></a>
+                    <a id="chongqing" class="map_cq" bindtap="pageNavi"></a>
+                    <a id="hubei" class="map_hubei" bindtap="pageNavi"></a>
+                    <a id="henan" class="map_henan" bindtap="pageNavi"></a>
+                    <a id="sxi" class="map_sx" bindtap="pageNavi"></a>
+                    <a id="shanxi" class="map_sxi" bindtap="pageNavi"></a>
+                    <a id="ningxia" class="map_nx" bindtap="pageNavi"></a>
+                    <image id="nanhai" class="map_nanhai" src="../../images/map/islands.png"></image>
+                    <image id="diaoyu" class="map_diaoyu" src="../../images/map/diaoyu.jpg"></image>
+                    <image id="dongsha" class="map_dongsha" src="../../images/map/dongsha.png"></image>
+                    <image id="dongsha" class="map_guojie2" src="../../images/map/guojie1.jpg"></image>
+                    <image id="dongsha" class="map_guojie1" src="../../images/map/guojie2.jpg"></image>
                     <view class="xg_box">
                         <a id="xianggang" class="map_xg" bindtap="pageNavi"></a>
                     </view>

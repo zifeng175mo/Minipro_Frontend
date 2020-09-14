@@ -409,11 +409,55 @@
   background: url(https://www.cultureinnovation.top:8000/media/province/nx.png) no-repeat 0 0;
 }
 
+.map_nanhai{
+  width: 260px;
+  height: 290px;
+  margin-top: 650px;
+  margin-left: 480px;
+  /*background: url(https://www.cultureinnovation.top:8000/media/province/islands.png) no-repeat 0 0;*/
+}
+
+.map_diaoyu{
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  bottom: 160px;
+  right: 15px;
+  /*background: url(https://www.cultureinnovation.top:8000/media/province/islands.png) no-repeat 0 0;*/
+}
+
+.map_dongsha{
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  z-index: 10;
+  bottom: 30px;
+  right: 130px;
+  /*background: url(https://www.cultureinnovation.top:8000/media/province/islands.png) no-repeat 0 0;*/
+}
+
+.map_guojie1{
+  position: absolute;
+  width: 18px;
+  height: 30px;
+  bottom: 35px;
+  right: 80px;
+  /*background: url(https://www.cultureinnovation.top:8000/media/province/islands.png) no-repeat 0 0;*/
+}
+
+.map_guojie2{
+  position: absolute;
+  width: 18px;
+  height: 30px;
+  bottom: 95px;
+  right: 60px;
+  /*background: url(https://www.cultureinnovation.top:8000/media/province/islands.png) no-repeat 0 0;*/
+}
 
 .company_info .divider-heading{
   margin-bottom: 40px;
 }
-.black{
+.blank{
   color: #000;
 }
 .company_info ul , .company_info li{
@@ -452,8 +496,9 @@
 }
 
 .scroll-box{
-  height: 1400rpx;
+  height: 1875rpx;
   overflow: hidden;
+  background-color: #f4f4f4;
 }
 
 .blank {
